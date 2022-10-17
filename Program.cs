@@ -21,7 +21,7 @@ Console.WriteLine("det angivna talet är större än det slumpmässiga talet");
 }
 else
 {
-Console.WriteLine("bra jobbat. du gjorde något som statistiskt sätt inte borde ske");
+Console.WriteLine("bra jobbat. du gjorde något som statistiskt sett inte borde ske");
 }
 Console.WriteLine("Du har gjort " + i + " gisningar");
 }
