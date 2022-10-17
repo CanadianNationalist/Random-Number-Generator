@@ -1,4 +1,10 @@
-﻿Random random = new Random();
+using System;
+					
+public class Program
+{
+public static void Main()
+{
+Random random = new Random();
 int randomnumber = random.Next(1,101);
 int y = 0;
 for(int i= 1; y!=randomnumber; i ++)
@@ -18,4 +24,6 @@ else
 Console.WriteLine("bra jobbat. du gjorde något som statistiskt sätt inte borde ske");
 }
 Console.WriteLine("Du har gjort " + i + " gisningar");
+}
+}
 }
